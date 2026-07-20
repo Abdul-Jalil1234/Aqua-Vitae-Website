@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portrait avatar for the community systems engineer">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B5541F"/>
+      <stop offset="100%" stop-color="#0B4F6C"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="24" fill="url(#g4)"/>
+  <path d="M0 150 Q 50 130 100 150 T 200 150 V200 H0 Z" fill="#ffffff" opacity="0.08"/>
+  <path d="M0 165 Q 50 150 100 165 T 200 165 V200 H0 Z" fill="#ffffff" opacity="0.12"/>
+  <circle cx="100" cy="82" r="34" fill="#F3F6F5" opacity="0.95"/>
+  <text x="100" y="94" font-family="Fraunces, serif" font-size="30" font-weight="600" fill="#B5541F" text-anchor="middle">ZP</text>
+</svg>

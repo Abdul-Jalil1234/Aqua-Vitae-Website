@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a mechanized borehole rig at work">
+  <rect width="400" height="300" fill="#F1E9D8"/>
+  <rect x="0" y="240" width="400" height="60" fill="#C99A5B" opacity="0.4"/>
+  <rect x="185" y="40" width="10" height="200" fill="#16232A"/>
+  <polygon points="190,20 240,90 140,90" fill="#B5541F"/>
+  <rect x="120" y="90" width="140" height="20" rx="4" fill="#0B4F6C"/>
+  <circle cx="190" cy="240" r="18" fill="#2FA8A0"/>
+  <path d="M190 240 v40" stroke="#2FA8A0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M175 260 q15 20 30 0" stroke="#0B4F6C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="60" y="220" width="50" height="30" rx="4" fill="#E0942C"/>
+  <rect x="300" y="210" width="50" height="40" rx="4" fill="#E0942C"/>
+</svg>

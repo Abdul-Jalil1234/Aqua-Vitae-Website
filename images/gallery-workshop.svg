@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a community health workshop under a tree">
+  <rect width="400" height="300" fill="#F1E9D8"/>
+  <circle cx="330" cy="60" r="34" fill="#E0942C" opacity="0.85"/>
+  <rect x="0" y="220" width="400" height="80" fill="#C99A5B" opacity="0.35"/>
+  <ellipse cx="120" cy="150" rx="70" ry="70" fill="#4E7A3D" opacity="0.85"/>
+  <rect x="112" y="150" width="16" height="90" fill="#6B4A2A"/>
+  <g fill="#0B4F6C">
+    <circle cx="200" cy="230" r="12"/>
+    <rect x="192" y="242" width="16" height="30" rx="6"/>
+    <circle cx="240" cy="235" r="12"/>
+    <rect x="232" y="247" width="16" height="26" rx="6"/>
+    <circle cx="270" cy="228" r="12"/>
+    <rect x="262" y="240" width="16" height="32" rx="6"/>
+    <circle cx="165" cy="234" r="12"/>
+    <rect x="157" y="246" width="16" height="28" rx="6"/>
+  </g>
+  <rect x="205" y="200" width="60" height="42" rx="4" fill="#F3F6F5" stroke="#0B4F6C" stroke-width="3"/>
+  <path d="M215 218 h40 M215 228 h30" stroke="#2FA8A0" stroke-width="3" stroke-linecap="round"/>
+</svg>

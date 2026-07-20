@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of water treatment kits ready for distribution">
+  <rect width="400" height="300" fill="#EAF2F0"/>
+  <rect x="0" y="230" width="400" height="70" fill="#0B4F6C" opacity="0.12"/>
+  <g>
+    <rect x="60" y="150" width="70" height="90" rx="8" fill="#2FA8A0"/>
+    <rect x="70" y="130" width="50" height="24" rx="4" fill="#0B4F6C"/>
+    <circle cx="95" cy="195" r="16" fill="#F3F6F5"/>
+    <path d="M88 195 l5 6 l12 -14" stroke="#0B4F6C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="165" y="170" width="70" height="70" rx="8" fill="#E0942C"/>
+    <rect x="175" y="150" width="50" height="24" rx="4" fill="#B5541F"/>
+    <circle cx="200" cy="205" r="16" fill="#F3F6F5"/>
+    <path d="M193 205 l5 6 l12 -14" stroke="#B5541F" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="270" y="140" width="70" height="100" rx="8" fill="#0B4F6C"/>
+    <rect x="280" y="120" width="50" height="24" rx="4" fill="#16232A"/>
+    <circle cx="305" cy="190" r="16" fill="#F3F6F5"/>
+    <path d="M298 190 l5 6 l12 -14" stroke="#0B4F6C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
