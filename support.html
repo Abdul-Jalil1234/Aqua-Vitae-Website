@@ -1,12 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support Us — Aqua Vitae Initiative</title>
+<meta name="description" content="Support the Aqua Vitae Initiative by donating water treatment kits, sponsoring a borehole, funding a workshop, or volunteering your expertise.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    funded.</div>
+
+<div class="preloader" role="status" aria-label="Loading Aqua Vitae Initiative">
+  <svg class="preloader-drop" viewBox="0 0 64 64" fill="none"><path d="M32 4 C32 4 12 30 12 44 A20 20 0 0 0 52 44 C52 30 32 4 32 4 Z" fill="#fff"/></svg>
+  <span class="preloader-word">Aqua Vitae</span>
+</div>
+<div class="scroll-progress"></div>
+
+<a class="skip-link" href="#main" style="position:absolute;left:-999px;top:0;background:#fff;padding:0.6rem 1rem;z-index:999;">Skip to content</a>
+
+<!--                 HEADER / NAV              -->
+<header class="site-header">
+  <div class="container nav-bar">
+    <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-drawer">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="brand">
+      <svg class="drop" viewBox="0 0 64 64" fill="none"><path d="M32 4 C32 4 12 30 12 44 A20 20 0 0 0 52 44 C52 30 32 4 32 4 Z" fill="#2FA8A0"/></svg>
+      Aqua Vitae
+    </a>
+    <div class="nav-spacer"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="mission.html">Our Mission</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="support.html">Support Us</a></li>
+   </ul>
+    <button class="search-trigger" type="button" aria-label="Search the site">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <span class="search-label">Search</span>
+      <kbd>Ctrl K</kbd>
+    </button>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+    </button>
+    <a href="support.html" class="btn btn-primary btn-sm">Support Us</a>
+  </div>
+</header>
+
+<div class="scrim"></div>
+<nav class="nav-drawer" id="nav-drawer" aria-label="Primary">
+  <button class="nav-drawer-close" aria-label="Close navigation menu">&times;</button>
+  <span class="drawer-eyebrow">Navigate</span>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="mission.html">Our Mission</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="updates.html">Updates</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="support.html">Support Us</a></li>
+  </ul>
+  <a href="support.html" class="btn btn-primary drawer-cta">Support Us</a>
+</nav>
+
+<!-- Search overlay -->
+<div class="search-overlay">
+  <div class="search-panel">
+    <div class="search-field">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="text" id="search-input" placeholder="Search pages, programs, ways to help…" autocomplete="off">
+      <button class="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <ul id="search-results" class="search-results"></ul>
+    <div class="search-hint"><span>Navigate with results</span><span><kbd>Esc</kbd> to close</span></div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!--         PAGE HERO         -->
+  <section class="page-hero" id="top">
+    <div class="container">
+      <p class="eyebrow">Your Hands, Our Water, Their Future</p>
+      <h1>Support Us</h1>
+      <p>Every contribution — a kit, a borehole, an hour of your time — moves a family closer to safe drinking water. Here's how to join the mission.</p>
+    </div>
+  </section>
+
+  <!--           WAYS TO SUPPORT            -->
+  <section id="ways-to-support">
+    <div class="container">
+      <div class="section-header center reveal">
+        <p class="eyebrow">Six Ways In</p>
+        <h2>Ways to Support</h2>
+        <p>Choose the contribution that fits you best — funding, infrastructure, expertise, or advocacy all move the mission forward.</p>
+      </div>
+      <div class="card-grid">
+        <article class="info-card reveal">
+          <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2h8l-1 4H9L8 2Z"/><path d="M9 6v13a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V6"/></svg></div>
+          <h3>Donate Treatment Kits</h3>
+          <p>Directly fund the purification kits that give families immediate, life-saving protection from contaminated water.</p>
+        </article>
+        <article class="info-card reveal" style="--i:1">
+          <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>Sponsor a Borehole</h3>
+          <p>Contribute toward mechanized boreholes that deliver long-term, sustainable water access to an entire village.</p>
+        </article>
+        <article class="info-card reveal" style="--i:2">
+          <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+          <h3>Fund a Workshop</h3>
+          <p>Cover the cost of a full health-education session — facilitator training, materials, and local transport.</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <h3>Volunteer Your Expertise</h3>
+          <p>Public health professionals, engineers, and educators are welcome to contribute time directly to our programs.</p>
+        </article>
+        <article class="info-card reveal" style="--i:1">
+          <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div>
+          <h3>Partner With Us</h3>
+          <p>NGOs, corporations and institutions can explore formal partnerships to co-fund infrastructure or amplify advocacy.</p>
+        </article>
+        <article class="info-card reveal" style="--i:2">
+          <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg></div>
+          <h3>Spread the Word</h3>
+          <p>Awareness is a resource too — sharing our mission helps us reach new donors, partners, and volunteers.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- THIS IS OUR DONATION TIERS  -->
+  <section class="section-alt" id="tiers">
+    <div class="container">
+      <div class="section-header center reveal">
+        <p class="eyebrow">Pick Your Impact</p>
+        <h2>Donation Tiers</h2>
+        <p>Every tier below is illustrative of what your contribution could achieve on the ground.</p>
+      </div>
+      <div class="tier-grid">
+        <div class="tier-card reveal">
+          <p class="eyebrow" style="justify-content:center;">Starter</p>
+          <div class="tier-amount">$10</div>
+          <p>Provides one water treatment kit — enough to purify drinking water for a family of five for a month.</p>
+          <a href="contact.html" class="btn btn-secondary btn-block">Give a Kit</a>
+        </div>
+        <div class="tier-card featured reveal" style="--i:1">
+          <p class="eyebrow" style="justify-content:center;">Community</p>
+          <div class="tier-amount">$50</div>
+          <p>Funds a full health workshop for a village — training on safe storage, hygiene, and illness prevention.</p>
+          <a href="contact.html" class="btn btn-primary btn-block">Fund a Workshop</a>
+        </div>
+        <div class="tier-card reveal" style="--i:2">
+          <p class="eyebrow" style="justify-content:center;">Infrastructure</p>
+          <div class="tier-amount">$500</div>
+          <p>Contributes toward a mechanized borehole — a lasting water source serving a village for years to come.</p>
+          <a href="contact.html" class="btn btn-secondary btn-block">Sponsor Infrastructure</a>
+        </div>
+      </div>
+      <p class="reveal" style="text-align:center; margin-top:var(--space-lg); font-size:0.85rem;">Prefer a custom amount or in-kind donation? <a href="contact.html" style="color:var(--color-river-light); font-weight:600;">Get in touch</a> and we'll tailor it with you.</p>
+    </div>
+  </section>
+
+  <!-- OUR IMPACT PROGRESS -->
+  <section id="progress">
+    <div class="container">
+      <div class="vision-panel reveal">
+        <div>
+          <p class="eyebrow" style="color:#EAD9B8;">Where Your Support Goes</p>
+          <h2>Every Gift Moves the Needle</h2>
+          <p style="color:rgba(255,255,255,0.86)">We're tracking toward 7 in every 10 rural families having safe water access by 2031. Current supporter contributions have funded our first two borehole partnerships and over 900 treatment kits.</p>
+          <div class="progress-bar-track"><div class="progress-bar-fill" style="--target:38%"></div></div>
+          <div class="progress-caption"><span>Current reach · ~38%</span><span>2031 Target · 70%</span></div>
+        </div>
+        <div class="vision-figure">
+          <div class="big"><span data-counter="900" data-suffix="+">0</span></div>
+          <p style="color:rgba(255,255,255,0.8)">treatment kits funded by supporters so far</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--       FREQUENTLY ASKED QUESTIONS   -->
+  <section class="section-alt" id="faq">
+    <div class="container">
+      <div class="section-header center reveal">
+        <p class="eyebrow">Before You Reach Out</p>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="accordion reveal">
+        <details open>
+          <summary>How do I donate water treatment kits?</summary>
+          <div class="accordion-body">Use the Contact page and select “Donating treatment kits” as your topic — our team will send secure payment details and a confirmation once your kits are dispatched.</div>
+        </details>
+        <details>
+          <summary>What does sponsoring a borehole actually fund?</summary>
+          <div class="accordion-body">Your sponsorship goes toward drilling, mechanized pump installation, and a 12-month maintenance plan carried out with our partner NGOs and local engineers.</div>
+        </details>
+        <details>
+          <summary>Can I volunteer without a technical background?</summary>
+          <div class="accordion-body">Yes — we welcome help with workshop facilitation, translation, logistics, and community outreach, in addition to public health and engineering expertise.</div>
+        </details>
+        <details>
+          <summary>Do you provide receipts for donations?</summary>
+          <div class="accordion-body">Yes, every contribution receives a confirmation and receipt by email, itemising exactly what your donation funded.</div>
         </details>
         <details>
           <summary>Which regions are you currently operating in?</summary>
@@ -53,6 +252,9 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">
-  <svg viewBox="0 0 24 2
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+</button>
+
+<script src="js/main.js"></script>
 </body>
 </html>
