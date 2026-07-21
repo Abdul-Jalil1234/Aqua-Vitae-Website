@@ -1,12 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field Updates — Aqua Vitae Initiative</title>
+<meta name="description" content="News, field reports, and progress updates from the Aqua Vitae Initiative's work expanding clean water access across rural Africa.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    publishing next quarter.</p>
+
+<div class="preloader" role="status" aria-label="Loading Aqua Vitae Initiative">
+  <svg class="preloader-drop" viewBox="0 0 64 64" fill="none"><path d="M32 4 C32 4 12 30 12 44 A20 20 0 0 0 52 44 C52 30 32 4 32 4 Z" fill="#fff"/></svg>
+  <span class="preloader-word">Aqua Vitae</span>
+</div>
+<div class="scroll-progress"></div>
+
+<header class="site-header">
+  <div class="container nav-bar">
+    <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-drawer">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="brand">
+      <svg class="drop" viewBox="0 0 64 64" fill="none"><path d="M32 4 C32 4 12 30 12 44 A20 20 0 0 0 52 44 C52 30 32 4 32 4 Z" fill="#2FA8A0"/></svg>
+      Aqua Vitae
+    </a>
+    <div class="nav-spacer"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="mission.html">Our Mission</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="support.html">Support Us</a></li>
+    </ul>
+    <button class="search-trigger" type="button" aria-label="Search the site">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <span class="search-label">Search</span>
+      <kbd>Ctrl K</kbd>
+    </button>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+    </button>
+    <a href="support.html" class="btn btn-primary btn-sm">Support Us</a>
+  </div>
+</header>
+
+<div class="scrim"></div>
+<nav class="nav-drawer" id="nav-drawer" aria-label="Primary">
+  <button class="nav-drawer-close" aria-label="Close navigation menu">&times;</button>
+  <span class="drawer-eyebrow">Navigate</span>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="mission.html">Our Mission</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="updates.html">Updates</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="support.html">Support Us</a></li>
+  </ul>
+  <a href="support.html" class="btn btn-primary drawer-cta">Support Us</a>
+</nav>
+
+<div class="search-overlay">
+  <div class="search-panel">
+    <div class="search-field">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="text" id="search-input" placeholder="Search pages, programs, ways to help…" autocomplete="off">
+      <button class="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <ul id="search-results" class="search-results"></ul>
+    <div class="search-hint"><span>Navigate with results</span><span><kbd>Esc</kbd> to close</span></div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero" id="top">
+    <div class="container">
+      <p class="eyebrow">From The Field</p>
+      <h1>Field Updates</h1>
+      <p>Progress notes, field reports, and milestones from our work expanding clean water access across rural Africa — posted as they happen.</p>
+    </div>
+  </section>
+
+  <!--                 FEATURED POST          -->
+  <section>
+    <div class="container">
+      <div class="info-card reveal" style="display:grid; grid-template-columns: 1fr 1fr; gap:0; overflow:hidden; padding:0;">
+        <img src="images/New borehole.jpg" alt="Family collecting clean water at a village pump" style="height:100%; object-fit:cover;">
+        <div style="padding: var(--space-lg);">
+          <span class="tag">Featured</span>
+          <p class="post-meta">March 2026 · 4 min read</p>
+          <h2 style="font-size:1.5rem;">First Borehole Reaches Full Operation</h2>
+          <p>Our first mechanised borehole, built in partnership with a regional NGO, has now been serving the Nsuta  community in Ghana for a full season without interruption — cutting the average water-collection walk from two hours to under ten minutes for the households nearest the site.</p>
+          <a href="#" class="btn btn-secondary btn-sm">Read the full report</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--                     POST GRID               -->
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Recent Posts</p>
+        <h2>Latest From Our Teams</h2>
+      </div>
+
+      <div class="card-grid reveal-stagger">
+        <article class="info-card reveal" style="--i:0">
+          <span class="tag">Workshops</span>
+          <p class="post-meta">February 2026 · 3 min read</p>
+          <h3>200 Households Trained in Water Safety This Quarter</h3>
+          <p>Our community health workshops crossed a new milestone this quarter, reaching households across three villages with hands-on training in safe storage and treatment.</p>
+          <a href="#">Read more →</a>
+        </article>
+
+        <article class="info-card reveal" style="--i:1">
+          <span class="tag">Kits</span>
+          <p class="post-meta">January 2026 · 2 min read</p>
+          <h3>Treatment Kit Distribution Restocked Ahead of Dry Season</h3>
+          <p>Ahead of the dry season, when contamination risk rises as water sources shrink, our team pre-positioned an additional batch of treatment kits in high-risk areas.</p>
+          <a href="#">Read more →</a>
+        </article>
+
+        <article class="info-card reveal" style="--i:2">
+          <span class="tag">Partnerships</span>
+          <p class="post-meta">December 2025 · 5 min read</p>
+          <h3>New NGO Partnership Signed for Borehole Expansion</h3>
+          <p>We've signed a new partnership agreement to fund and construct two additional mechanised boreholes in neighbouring districts over the coming year.</p>
+          <a href="#">Read more →</a>
+        </article>
+
+        <article class="info-card reveal" style="--i:3">
+          <span class="tag">Community</span>
+          <p class="post-meta">November 2025 · 3 min read</p>
+          <h3>Meet the First Cohort of Water Guardians</h3>
+          <p>Our pilot group of community-trained "Water Guardians" completed their first month monitoring local water quality and maintaining treatment infrastructure.</p>
+          <a href="#">Read more →</a>
+        </article>
+
+        <article class="info-card reveal" style="--i:4">
+          <span class="tag">Milestone</span>
+          <p class="post-meta">October 2025 · 2 min read</p>
+          <h3>Aqua Vitae Initiative Officially Launches</h3>
+          <p>After months of planning, our first workshop and kit distribution took place — marking the official start of field operations.</p>
+          <a href="#">Read more →</a>
+        </article>
+
+        <article class="info-card reveal" style="--i:5">
+          <span class="tag">Impact</span>
+          <p class="post-meta">Coming soon</p>
+          <h3>Q2 Impact Report: Families Reached So Far</h3>
+          <p>A full breakdown of households reached, kits distributed, and progress against our five-year vision — publishing next quarter.</p>
           <a href="#">Read more →</a>
         </article>
       </div>
@@ -72,6 +219,9 @@
 </footer>
 
 <button class="back-to-top" aria-label="Back to top">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentCol
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+</button>
+
+<script src="js/main.js"></script>
 </body>
 </html>
